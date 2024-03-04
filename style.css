@@ -143,6 +143,7 @@ h2 a {
 }
 .top-bar2 a {
   text-decoration: none;
+  color:var(--primary-color);
 }
 .top-bar2 {
   display: flex;
