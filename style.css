@@ -72,8 +72,13 @@ footer {
 .info {
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.info img {
+  width: 200px;
+  margin-top: 60px;
 }
 .header {
   display: flex;
@@ -246,10 +251,42 @@ h2 a {
   .featured {
     display: flex;
     flex-direction: row;
-    width: 800px;
+    width: 600px;
     flex-wrap: wrap;
   }
   .featured dl {
     margin-right: 5px;
+  }
+  .main-content {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 100px;
+  }
+  .pro {
+    width: 110px;
+    height: 160px;
+  }
+  .pro .des a {
+    font-size: 10px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .title a {
+    margin-left: 20px;
+  }
+  .topbar2 {
+    padding: 5px 15px;
+    margin-left: 0px;
+    width: 214px;
+    margin-top: 5px;
   }
 }
