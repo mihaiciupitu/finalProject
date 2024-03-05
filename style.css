@@ -245,7 +245,7 @@ h2 a {
     flex-wrap: wrap;
     flex-direction: column;
     display: flex;
-    width: 600px;
+    width: auto;
     margin: 20px;
   }
   .featured {
@@ -297,5 +297,7 @@ h2 a {
     display: flex;
     flex-direction: row;
     width: auto;
+  }
+  .main {
   }
 }
