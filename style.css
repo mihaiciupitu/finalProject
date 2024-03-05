@@ -251,7 +251,7 @@ h2 a {
   .featured {
     display: flex;
     flex-direction: row;
-    width: 600px;
+    width: 250px;
     flex-wrap: wrap;
   }
   .featured dl {
