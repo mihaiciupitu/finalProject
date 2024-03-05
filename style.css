@@ -61,7 +61,7 @@ footer {
   margin: 5px;
 }
 .charts {
-  width: 15%;
+  width: 214px;
   position: static;
   margin-left: 10px;
   min-height: 100%;
@@ -108,7 +108,7 @@ footer {
   margin-left: 50px;
   transition: 0.5;
   display: flex;
-  width: 90%;
+  width: 214px;
 }
 
 li {
@@ -223,11 +223,33 @@ h2 a {
 .products-dark {
   filter: invert();
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .player {
+    display: none;
+  }
+  .topbar {
+    margin-left: 0px;
+    width: fit-content;
+  }
   .charts {
-    width: 35%;
-    position: static;
-    margin-left: 10px;
-    min-height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    width: 107px;
+    margin: 20px;
+  }
+  .featured {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    flex-wrap: wrap;
+  }
+  .featured dl {
+    margin-right: 5px;
   }
 }
